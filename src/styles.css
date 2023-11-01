@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --blue: #264E7C;
+
+}
+body{
+    background-color: #000 !important;
+    box-sizing: border-box !important;
+}
+h2, h4, p{
+    color: white !important;
+}
+#center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
