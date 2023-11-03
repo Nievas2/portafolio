@@ -18,7 +18,7 @@ p {
 }
 @font-face {
   font-family: "ELNATH";
-  src: url("../assets/Fonts/ELNATH.ttf") format("truetype");
+  src: url("../src/assets/Fonts/ELNATH.ttf") format("truetype");
 }
 
 .fontTech {
