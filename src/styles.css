@@ -1,17 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-    --blue: #264E7C;
+  --blue: #264e7c;
+}
+body {
+  background-color: #000 !important;
+  box-sizing: border-box !important;
+}
+h2,
+h4,
+p {
+  color: rgb(255, 255, 255) !important;
+}
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@font-face {
+  font-family: "ELNATH";
+  src: url("../assets/Fonts/ELNATH.ttf") format("truetype");
+}
 
+.fontTech {
+  font-family: "ELNATH", sans-serif;
 }
-body{
-    background-color: #000 !important;
-    box-sizing: border-box !important;
-}
-h2, h4, p{
-    color: white !important;
-}
-#center{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
+.linea-blanca {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+  }
+  
